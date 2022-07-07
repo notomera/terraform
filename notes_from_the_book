@@ -1,0 +1,10 @@
+1 If you find the AWS terminology confusing, be sure to check out AWS in Plain English.
+2 For more details on AWS user management best practices, see http://amzn.to/2lvJ8Rf.
+3 You can learn more about IAM Policies on the AWS website.
+4 You can also write Terraform code in pure JSON in files with the extension .tf.json. You can learn more about Terraform’s HCL and JSON syntax on the Terraform website.
+5 You can learn more about AWS regions and Availability Zones on the AWS website.
+6 You can find a handy list of HTTP server one-liners on GitHub.
+7 To learn more about how CIDR works, see its Wikipedia page. For a handy calculator that converts between IP address ranges and CIDR notation, use either http://cidr.xyz/ in your browser or install the ipcalc command in your terminal.
+8 From The Pragmatic Programmer by Andy Hunt and Dave Thomas (Addison-Wesley Professional).
+9 For a deeper look at how to build highly available and scalable systems on AWS, see http://bit.ly/2mpSXUZ.
+10 To keep these examples simple, we’re running the EC2 Instances and ALB in the same subnets. In production usage, you’d most likely run them in different subnets, with the EC2 Instances in private subnets (so they aren’t directly accessible from the public internet) and the ALBs in public subnets (so users can access them directly).
