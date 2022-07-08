@@ -1,0 +1,5 @@
+#All Terraform State Files
+*.terraform*
+chapter02/.terraform
+chapter03/global/s3/.terraform
+chapter03/stage/service/*.terraform*
